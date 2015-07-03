@@ -1,0 +1,24 @@
+{
+  "name": "swiper-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -f build/swiper.js && browserify swiper.js > build/swiper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callumacrae/swiper-test"
+  },
+  "author": "Callum Macrae <callum@macr.ae>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/callumacrae/swiper-test/issues"
+  },
+  "homepage": "https://github.com/callumacrae/swiper-test",
+  "dependencies": {
+    "browserify": "^10.2.4",
+    "swiper": "^3.0.8"
+  }
+}
